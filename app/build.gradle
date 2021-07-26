@@ -32,9 +32,15 @@ android {
 
     flavorDimensions 'default'
     productFlavors {
-        dev {}
-        stg {}
-        prod {}
+        dev {
+            buildConfigField "String", "FLICKER_BASE_URL", "\"https://www.flickr.com/\""
+        }
+        stg {
+            buildConfigField "String", "FLICKER_BASE_URL", "\"https://www.flickr.com/\""
+        }
+        prod {
+            buildConfigField "String", "FLICKER_BASE_URL", "\"https://www.flickr.com/\""
+        }
     }
 
     compileOptions {
