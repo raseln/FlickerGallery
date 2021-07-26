@@ -1,7 +1,8 @@
-package com.rasel.flickergallery
+package com.rasel.flickergallery.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.rasel.flickergallery.R
 
 class MainActivity : AppCompatActivity() {
 
