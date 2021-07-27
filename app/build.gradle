@@ -56,6 +56,14 @@ android {
     dataBinding {
         enabled true
     }
+
+    //For unit test using mockito
+    testOptions {
+        unitTests {
+            returnDefaultValues = true
+            includeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
@@ -68,6 +76,9 @@ dependencies {
 
     //Unit test
     testImplementation "junit:junit:$junit_version"
+    testImplementation "org.mockito:mockito-core:$mockito_version"
+    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutine_test_version"
+    testImplementation "androidx.arch.core:core-testing:$core_test_ver"
 
     //Integration test
     androidTestImplementation "androidx.test.ext:junit:$junit_ext_version"
