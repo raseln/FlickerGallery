@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Flicker Gallery</string>
+    <string name="image">image</string>
+    <string name="no_image_to_display">No image to display</string>
+    <string name="image_description">Description: %s</string>
+    <string name="date_taken">Image taken at: %s</string>
+    <string name="published_at">Published at: %s</string>
+    <string name="author_name">Taken by: %s</string>
+    <string name="tags">Tags: %s</string>
+    <string name="save">Save</string>
+    <string name="share_to_email">Share to email</string>
 </resources>
